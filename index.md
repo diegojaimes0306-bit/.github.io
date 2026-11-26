@@ -6,13 +6,13 @@ Aeronautical Engineer with a Master's Degree in Operations Management and hands-
 
 ## Portfolio & Knowledge Hub
 
-* [Flight Operations & Python Data Science](./python-projects.html)
-* [Interactive BI Dashboards (Power BI & Tableau)](./dashboards.html)
-* [Lean Six Sigma & Operational Efficiency Notes](./operations.html)
+- [Flight Operations & Python Data Science](./python-projects.html)
+- [Interactive BI Dashboards (Power BI & Tableau)](./dashboards.html)
+- [Lean Six Sigma & Operational Efficiency Notes](./operations.html)
 
 ---
 
 ## Connect
 
-* **LinkedIn:** [linkedin.com/in/diegoenriquejaimes](https://www.linkedin.com)
-* **Location:** Bogotá, Colombia (Open to relocation — Dubai / Madrid)
+- **LinkedIn:** [linkedin.com/in/diegoenriquejaimes](https://www.linkedin.com/in/diegoenriquejaimes/?locale=en-US)
+- **Location:** Bogotá, Colombia (Open to relocation — Dubai / Madrid)
