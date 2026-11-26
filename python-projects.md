@@ -9,5 +9,3 @@ Statistical analysis and feature engineering pipeline built on **10,470+ commerc
 * **Data Cleaning & Skewness Normalization:** Yeo-Johnson power transformations and logarithmic scaling to handle extreme operational outliers.
 * **Inferential Validation:** One-way ANOVA and 95% confidence intervals (t-Student) to validate route and origin impact prior to modeling.
 * **Feature Matrix Preparation:** One-Hot Encoding across aircraft registrations, departure/arrival stations, and 60-minute schedule blocks.
-
-*(Aquí enlazarás tu notebook de Deepnote/Colab y tus gráficos exportados)*
