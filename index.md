@@ -14,5 +14,5 @@ Aeronautical Engineer with a Master's Degree in Operations Management and hands-
 
 ## Connect
 
-* **LinkedIn:** [linkedin.com/in/diegojaimes](https://www.linkedin.com)
+* **LinkedIn:** [linkedin.com/in/diegoenriquejaimes](https://www.linkedin.com)
 * **Location:** Bogotá, Colombia (Open to relocation — Dubai / Madrid)
