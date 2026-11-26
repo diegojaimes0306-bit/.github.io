@@ -10,6 +10,7 @@ My focus is simple: translate raw operational data into clear KPIs, actionable i
 * **Analytics & Data:** Python, SQL, Power BI, Statistical Modeling, Operations Research
 * **Automation & Apps:** Microsoft Power Platform (Power Apps, Power Automate), Google AppSheet
 * **Operations & Strategy:** Lean Six Sigma, KPI Architecture, Process Simulation, Disruption Management
+
 ---
 
 ## Portfolio & Knowledge Hub
