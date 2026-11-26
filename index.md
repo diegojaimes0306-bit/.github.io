@@ -1,7 +1,3 @@
-
----
----
-
 ## About Me
 
 Data & Operations Analyst with 9+ years of experience turning high-pressure, complex operations into efficient, data-driven systems. 
