@@ -12,8 +12,8 @@
       <div class="header-container">
         <img src="{{ '/diego_jaimes.png' | relative_url }}" alt="Diego E. Jaimes B." class="profile-avatar">
         <div class="header-text">
-          <h1 class="project-name">{{ page.title | default: site.title }}</h1>
-          <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+          <h1 class="project-name">{{ site.title }}</h1>
+          <h2 class="project-tagline">{{ site.description }}</h2>
           <a href="https://www.linkedin.com/in/diegoenriquejaimes/?locale=en-US" class="btn" target="_blank">LinkedIn Profile</a>
           <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
         </div>
