@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2F65A6">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <div class="header-container">
+        <img src="{{ '/profile.jpg' | relative_url }}" alt="Diego E. Jaimes B." class="profile-avatar">
+        <div class="header-text">
+          <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+          <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+          <a href="https://www.linkedin.com/in/diegoenriquejaimes/?locale=en-US" class="btn" target="_blank">LinkedIn Profile</a>
+          <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-credits">© {{ 'now' | date: "%Y" }} Diego E. Jaimes B. • Data & Operations Analytics Portfolio</span>
+      </footer>
+    </main>
+  </body>
+</html>
