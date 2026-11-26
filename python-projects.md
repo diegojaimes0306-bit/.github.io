@@ -43,23 +43,3 @@ Structured a **78-feature matrix (*X*)** paired with the normalized continuous t
   * **Aircraft Tail (`Vehicleregistration`):** 6 binary features capturing tail-specific turnaround profiles.
   * **Origin & Destination (`Depstring`, `Arrstring`):** 23 station indicators capturing airport congestion and ground-handling turnaround dynamics.
   * **City-Pair Routes (`Route`):** 48 route-level indicators capturing sector-specific airspace and turnaround buffers.
-
-```python
-import pandas as pd
-import scipy.stats as st
-
-# Load leak-free operational dataset (10,470 operated flights)
-df = pd.read_csv("df_entregable_ml.csv")
-
-# Separate Feature Matrix (X) and Normalized Target (y)
-y = df["Blockoffdiff_escalado"]
-X = df.drop(columns=["Blockoffdiff_escalado", "Legdate"])
-
-# Inferential validation: One-Way ANOVA across departure stations (n >= 30)
-dep_cols = [c for c in df.columns if c.startswith("Depstring_")]
-df["Depstring"] = df[dep_cols].idxmax(axis=1).str.replace("Depstring_", "")
-
-groups = [g["Blockoffdiff_escalado"].values for _, g in df.groupby("Depstring") if len(g) >= 30]
-f_stat, p_val = st.f_oneway(*groups)
-
-print(f"ANOVA F-statistic: {f_stat:.2f} | p-value: {p_val:.2e}")
