@@ -148,7 +148,7 @@
 <div class="project-card">
   <h3>1. Flight Delay Prediction & Operational Variance Analysis</h3>
   <p>End-to-end statistical and machine learning workflow analyzing historical airline departure records (<code>Blockoffdiff</code>) to isolate delay drivers, engineer operational features, and build predictive delay models.</p>
-  <img src="flight_delay_portfolio_chart.png.png" alt="Flight Delay Analysis Chart" class="project-img">
+  <img src="flight_delay_portfolio_chart.png" alt="Flight Delay Analysis Chart" class="project-img">
   <div>
     <span class="tag">Python</span>
     <span class="tag">Pandas & NumPy</span>
